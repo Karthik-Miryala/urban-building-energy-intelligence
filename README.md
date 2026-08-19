@@ -1,0 +1,3 @@
+Forecasting building energy demand and prioritizing abnormal consumption for facility managers.
+
+Commercial buildings produce large volumes of meter data, but facilities teams often lack a reliable way to distinguish normal weather-driven variation from preventable waste, scheduling problems, or equipment faults. This project is a decision-support system that forecasts the next 24 hours of electricity or thermal-energy demand for each building, detects abnormal consumption, estimates the potential cost of each anomaly, and presents the highest-priority interventions to a facility manager.

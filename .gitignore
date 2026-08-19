@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+
+# Large or generated data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Model and experiment artifacts
+models/
+artifacts/
+mlruns/
+mlflow.db
+*.sqlite
+*.db
+
+# Operating system
+.DS_Store
+
+# Private project roadmap
+/Roadmap.docx
