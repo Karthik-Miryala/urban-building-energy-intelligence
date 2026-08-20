@@ -20,7 +20,7 @@ data/processed/*
 !data/processed/.gitkeep
 
 # Model and experiment artifacts
-models/
+/models/
 artifacts/
 mlruns/
 mlflow.db
