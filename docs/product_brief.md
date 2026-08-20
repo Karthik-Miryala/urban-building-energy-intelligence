@@ -71,15 +71,17 @@ A facility-manager alert will normally require the anomaly to persist for at lea
 
 High-consumption anomalies will receive an initial estimated excess-energy value:
 
-\[
-\text{excess\_kwh} = \max(0,\ \text{actual\_kwh} - \text{upper\_bound\_kwh})
-\]
+High-consumption anomalies will receive an initial estimated excess-energy value:
+
+```text
+excess_kwh = max(0, actual_kwh - upper_bound_kwh)
+```
 
 Estimated cost will be:
 
-\[
-\text{estimated\_cost} = \text{excess\_kwh} \times \text{electricity\_price\_per\_kwh}
-\]
+```text
+estimated_cost = excess_kwh × electricity_price_per_kwh
+```
 
 The initial electricity price will be configurable and clearly labeled as an assumption.
 
