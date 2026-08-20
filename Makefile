@@ -6,7 +6,6 @@ help:
 	@echo "  make sync          Synchronize the virtual environment"
 	@echo "  make lint          Check Python code with Ruff"
 	@echo "  make format        Automatically fix and format Python code"
-	@echo "  make format-check  Check formatting without changing files"
 	@echo "  make test          Run automated tests"
 	@echo "  make check         Run all CI quality checks"
 	@echo "  make pre-commit    Run pre-commit on every tracked file"
