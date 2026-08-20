@@ -32,3 +32,6 @@ mlflow.db
 
 # Private project roadmap
 /Roadmap.docx
+
+# Microsoft Office temporary lock files
+~$*
